@@ -1,0 +1,14 @@
+Wanted a hardware multipler for the MIPS stuff so I wrote one up. Also playing around with verilog testbenches. 
+The MIPS core has been mostly behavioral and C++ verification. Need to extend it to 32 bits
+but that is trivial. Need to play around with qflow or maybe vivado to figure out where to add the pipeline stages. 
+Will likely becoming a 3-4 stage thing seperated in the carry a few times. 
+
+TODO: 32 bits
+TODO: Divider
+TODO: Signed 32 bits
+
+Some thoughts:
+* For 32 bit MCUs do they generally have two 32 bit multiplers for signed and unsigned or a single signed 64
+bit multipler. Does this even matter from a hardware prospective, need to work out the register overhead to find out. 
+
+* Does this code synthesize as well as explicit half-adder and full-adder trees?
