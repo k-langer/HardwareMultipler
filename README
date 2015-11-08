@@ -1,6 +1,8 @@
-Wanted a hardware multipler for the MIPS stuff so I wrote one up. Also playing around with verilog testbenches. 
-The MIPS core has been mostly behavioral and C++ verification. Need to extend it to 32 bits
-but that is trivial. Need to play around with qflow or maybe vivado to figure out where to add the pipeline stages. 
+Wanted a hardware multipler for the MIPS stuff so I wrote this simple one.
+Also has a verilog testbench (the MIPS core has been mostly behavioral and C++ verification)
+
+Need to extend it to 32 bits--but that is trivial. 
+Need to play around with qflow or maybe vivado to figure out where to add the pipeline stages. Currently just one...
 Will likely becoming a 3-4 stage thing seperated in the carry a few times. 
 
 TODO: 32 bits
