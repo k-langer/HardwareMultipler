@@ -1,6 +1,6 @@
 CC=iverilog
 TARGET= mult.sim
-OBJS = hdw_mult.v 
+OBJS = 32hdw_mult.v 
 
 all: $(TARGET)
 
